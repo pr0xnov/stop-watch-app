@@ -1,0 +1,57 @@
+.main {
+  background: transparent;
+  max-width: 600px;
+  width: 400px;
+  height: 400px;
+  margin: 30px auto;
+  border-radius: 30%;
+  border: 3px solid #000;
+  background-color: #d4d1d1;
+  box-shadow: inset rgba(0, 0, 0, 0.5) -3px -3px 8px,
+    inset rgba(255, 255, 255, 0.9) 3px 3px 8px,
+    rgba(0, 0, 0, 0.8) 3px 3px 8px -3px;
+}
+
+.clock-holder {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.stopwatch {
+  text-align: center;
+}
+.stopwatch h1 {
+  margin-bottom: 80px;
+  font-size: 36px;
+  color: #000;
+  text-shadow: 3px 3px rgb(155, 153, 153);
+}
+.stopwatch span {
+  background: #767777;
+  color: #d1d1d1;
+  text-shadow: 1px 1px white, -1px -1px #333;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 3px solid #000;
+  width: 70px;
+  box-shadow: 3px 3px rgb(155, 153, 153);
+}
+
+.stopwatch-btn {
+  background: transparent;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 5px;
+  border: 3px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px rgb(155, 153, 153);
+}
+.stopwatch-btn:first-child {
+  margin-left: 0;
+}
